@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Oswald:wght@300&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    height: 80px;
+    background-color: #ffc2e2;
+}
+
+.img-navbar{
+    height: 60px;
+    border-radius: 50%;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar a:hover {
+    background-image: linear-gradient( #f79ad3, #f7c7db, #fae6e7);
+    border-radius: 5px;
+}
+
+.jumbotron{
+    background-image: url(img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.call{
+    width: 60%;
+    color: #16697a;
+    text-shadow: 0 0 5px #000, 0 0 5px #000;
+    border: 5px solid #5abec2;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 30px;
+}
+
+.call a {
+    background-image: linear-gradient( #0e9fa4, #3ec4d6, #5abec2);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+h1{
+    color: #2f8f9d;
+    text-shadow: 0 0 5px #fff;
+}
+
+.jumbotron p{
+    text-shadow: 0 0 5px #fff;
+}
+
+.jumbotron a:hover {
+    background-image: linear-gradient( #0e9fa4, #5abec2);
+}
+
+h2 {
+    background-image: linear-gradient( #f79ad3, #f7c7db, #fae6e7);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+    font-family: "Oswald", cursive;
+    text-shadow: 0 0 5px #000;
+}
+
+.article{
+    border: 5px solid #5abec2;
+    text-align: center;
+    font-size: 20px;
+}
+
+.article p {
+    height: 120px;
+}
+
+.card-img1 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 1.jpg);
+}
+
+.card-img2 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 2.jpg);
+}
+
+.card-img3 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 3.jpg);
+}
+
+.card-img4 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 4.jpg);
+}
+
+.card-img5 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 5.jpg);
+}
+
+.card-img6 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 6.jpg);
+}
+
+.card-img7 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 7.jpg);
+}
+
+.card-img8 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 8.jpg);
+}
+
+.card-img9 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 9.jpg);
+}
+
+.card-img10 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 10.jpg);
+}
+
+.card-img11 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 11.jpg);
+}
+
+.card-img12 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 12.jpg);
+}
+
+.card-img13 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 13.jpg);
+}
+
+.card-img14 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 14.jpg);
+}
+
+.card-img15 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 15.jpg);
+}
+
+.card-img16 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 16.jpg);
+}
+
+.card-img17 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 17.jpg);
+}
+
+.card-img18 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 18.jpg);
+}
+
+.card-img19 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 19.jpg);
+}
+
+.card-img20 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 20.jpg);
+}
+
+.card-img21 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 21.jpg);
+}
+
+.card-img22 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 22.jpg);
+}
+
+.card-img23 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 23.jpg);
+}
+
+.card-img24 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 24.jpg);
+}
+
+
+footer {
+    background-color: #000;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+
+footer .redes {
+    /* color: #16697a; */
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+footer a {
+    color: #2f8f9d;
+}
+
+footer a:hover {
+    color: #16697a;
+}
+
+.what {
+    height: 40px;
+    width: 40px;
+    background-color: #2f8f9d;
+    color: #fff;
+    position: fixed;
+    left: 40px;
+    bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.what:hover {
+    color: #fff;
+    background-image: linear-gradient( #16697a, #5abec2);
+}
+
+.subir {
+    height: 40px;
+    width: 40px;
+    background-color: #2f8f9d;
+    color: #fff !important;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    box-shadow: 0 0 5px #fff;
+}
+
+.nleft-nosotros {
+    background-image: url(img/Caja\ de\ regalo\ rosada\ y\ color\ en\ colores\ pastel\ de\ los\ globos\ en\ espacio\ del\ cielo\ y\ de\ la\ copia\ para\ su\ texto_\ _\ Foto\ Premium.jpeg);
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+
+.nright-nosotros {
+    background-color: white;
+}
+
+.sec {
+width: 50%;
+}
+
+
+.carousel-control-prev-icon:hover{
+    transform: scale(2);
+}
+
+.carousel-control-next-icon:hover{
+    transform: scale(2);
+}
+.jumbotron-contactanos{
+    background-image: url(img/download\ \(3\).jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.call-contactanos{
+    width: 60%;
+    color: #16697a;
+    text-shadow: 0 0 5px #000, 0 0 5px #000;
+    border: 5px solid #5abec2;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 30px;
+}
+
+.contactanos {
+    color: white;
+}
+
+
+/* comienzan las media queries */
+@media only screen and (min-width: 320px) and (max-width: 696px) {
+
+.call-contactanos{
+    font-size: 12px;
+    margin: 5px;
+    padding: 5px;
+    }
+    }
+
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+        .sec {
+            width: 100%;
+        }
+        }
+    @media only screen and (min-width: 480px) and (max-width: 768px) {
+    .sec {
+        width: 100%;
+    }
+    }
