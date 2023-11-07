@@ -132,7 +132,7 @@ h2 {
     width: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url(img/card\ 6.jpg);
+    background-image: url(img/card\ 6..jpg);
 }
 
 .card-img7 {
@@ -279,6 +279,21 @@ h2 {
     background-image: url(img/card\ 24.jpg);
 }
 
+.card-img25 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 25.jpg);
+}
+
+.card-img26 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 26.jpg);
+}
 
 footer {
     background-color: #000;
