@@ -295,6 +295,14 @@ h2 {
     background-image: url(img/card\ 26.jpg);
 }
 
+.card-img26 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/card\ 26.jpg);
+}
+
 footer {
     background-color: #000;
     text-align: center;
